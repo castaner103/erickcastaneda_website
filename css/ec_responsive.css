@@ -1,0 +1,106 @@
+@media screen and (min-width: 960px){
+
+	/****** conceptualize block ******/
+
+	.info_block{
+	  width: 100%;
+	}
+
+	.right_side h2{
+		text-align: left;
+	}
+
+	.right_side p{
+		width: 70%;
+		text-align: left;
+		float:left;
+}
+
+	/****** skills block ******/
+
+	.info_block_skills{
+		width:100%;
+	}
+
+
+	.info_block_skills .left_side p{
+		width: 70%;
+		text-align: right;
+	}
+
+	.info_block_skills .left_side h2{
+		text-align: right;
+	}
+
+
+
+	/****** contact block ******/
+
+	.info_block_contact{
+	  	width: 100%;
+	}
+
+	.info_block_contact .left_side h2{
+		text-align: right;
+
+	}
+
+	.info_block_contact .left_side p{
+		width: 70%;
+		text-align: right;
+		margin-right: 1px;
+}
+
+}
+
+
+@media screen and (max-width: 831px) {
+	/***** conceptulize block *****/
+
+	.info_block .left_side{
+		display: none;
+		overflow: auto;
+	}
+	.right_side h2{
+		font-size:4em;
+	}	
+	.right_side{
+			float:none;
+			margin:0 auto;
+	}
+
+	/***** skills block *****/
+
+	.info_block_skills .right_side{
+		display: none;
+		overflow: auto;
+	}
+
+	.info_block_skills .left_side{
+		float:none;
+		margin:0 auto;
+		height:24.5em;
+	}
+
+	.info_block_skills .left_side h2{
+		font-size:4em;
+	}	
+
+	/***** contact block *****/
+
+	.info_block_contact .right_side{
+		display: none;
+		overflow: auto;
+	}
+
+	.info_block_contact .left_side{
+			float:none;
+			margin:0 auto;
+			height:24.5em;
+	}
+
+	.info_block_contact .right_side h2{
+		font-size:4em;
+	}	
+
+}

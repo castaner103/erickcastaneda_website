@@ -1,0 +1,294 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+p{
+	font-family: open sans, sans-serif, arial;
+	margin:0 auto;
+}
+
+/* Start of my ericks code */
+
+*, *:before, *:after{
+	box-sizing:border-box;
+}
+
+body{
+	width: 100%;
+	text-align:center;
+	font-size: 1em;
+}
+
+/* wrapper */
+main{
+	background:url("http://erickink.com/wp-content/uploads/2014/04/test_background1.jpg")no-repeat; 
+}
+
+h1{
+	color:#ffffff;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	font-size:5em;
+	padding-top:6%;
+}
+
+h2{
+	font-family:Oswald, sans-serif;
+	font-size: 2em;
+	margin-bottom: 10px;
+}
+
+/* Start of Nav */
+
+nav{
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+}
+
+ul#my_nav {
+	font-family:'oswald',sans-serif;
+	background-color: black;
+	padding:15px;
+	line-height:35px;
+}
+
+#bio_header ul li {
+	display: inline-block;
+	height: 35px;
+	width: auto;
+	line-height: 36px;
+	border-radius: 7px;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+li a{
+	display: inline-block;
+	padding-left: 2%;
+	color: white;
+	font-family: 'oswald' sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	cursor: pointer;
+	border:none;
+	padding: 4px 25px;
+}
+
+/******* Header ********/
+
+#bio_header ul li:hover{
+	transition: opacity 1s cubic-bezier(0.175,.885,.32,1.275),all 1s cubic-bezier(0.175,.885,.32,1.275);
+	transform: scale(1.1);
+ 	-webkit-transform-origin: center center;
+	transform-origin: center center;
+}
+
+.intro img{
+	width: 50%;
+	margin-top:70px;
+}
+
+.down_click{
+	margin:20px 0;
+}
+
+/******* about me section ******/
+
+.info_block{
+	padding: 30px 10px 0 10px;
+	background-color:#DF9B8B;
+	color: white;
+	overflow: auto;
+}
+
+
+.right_side{
+	float:right;
+	width:60%;
+}
+
+.right_side h2{
+	max-width: 642px;
+	font-size: 5em;
+	/*text-align: left;*/
+	line-height: 100px;
+	margin-bottom: 10px;
+}
+
+.right_side p{
+/*	width: 70%;
+	text-align: left;*/
+	line-height: 25px;
+	margin-bottom: 2em;
+}
+
+.left_side{
+	float:left;
+	width:40%;
+	position:relative;
+	height:31.5em;
+}
+
+.left_side img{
+	max-width: 100%;
+	position: absolute;
+	bottom:0px;
+	left:0px;
+	max-height: 31.875em
+}
+
+/********** Skills section **********/
+.info_block_skills{
+	background-color:#685c79;
+	padding:30px 10px 0 10px;
+	color:white;
+	overflow: auto;
+}
+
+.info_block_skills .left_side{
+	float:left;
+	width:60%;
+}
+
+.info_block_skills .left_side h2{
+	max-width: 573px;
+	font-size: 5em;
+	float:right;
+	line-height: 100px;
+	margin-bottom: 10px;
+}
+
+.info_block_skills .left_side p{
+/*	width: 70%;
+	text-align: right;*/
+	line-height: 25px;
+	margin-right: 1px;
+
+}
+
+.info_block_skills .right_side{
+	float:right;
+	width:35%;
+	height:33.5em;
+	position: relative;
+}
+
+.info_block_skills .right_side img{
+	max-width: 100%;
+	bottom:0px;
+	right:0px;
+	position: absolute;
+}
+
+/********** Work section **********/
+.info_block_work{
+
+	background-color: white;
+	color:black;
+	padding:30px 10px 0 10px;
+	width:100%;
+	overflow: auto;
+}
+
+.info_block_work p{
+	width:50%;
+	padding:30px 0;
+}
+
+
+/********** Contact section **********/
+.info_block_contact{
+	background-color:#82ccb0;
+	padding:30px 10px 0 10px;
+	color:black;
+	width:100%;
+	overflow: auto;
+}
+
+.info_block_contact .left_side{
+	float:left;
+	width:60%;
+}
+
+.info_block_contact .left_side h2{
+	font-size: 5em;
+	line-height: 100px;
+	margin-bottom: 10px;
+}
+
+.info_block_contact .left_side p{
+	width: 70%;
+	/*text-align: right;*/
+	line-height: 25px;
+	/*margin-right: 1px;*/
+
+}
+
+.info_block_contact .right_side{
+	float:right;
+	width:40%;
+	height:31.5em;
+	position: relative;
+}
+
+.info_block_contact .right_side img{
+	max-width: 100%;
+	position: absolute;
+	bottom:0px;
+	right:0px;
+}
+
+/******* Start contact list ******/
+ul{
+	
+}
+
+
+/******* Start of Footer ******/
+footer{
+	padding:1%;
+	background-color: #000000;
+	color:white;
+}
