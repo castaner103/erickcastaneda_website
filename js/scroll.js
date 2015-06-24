@@ -5,7 +5,7 @@ $(document).scroll(function(){
 
 
 $('.intro h2 img').css('top', - pxscrolled);
-$('.down_click').css('top', - pxscrolled);
+$('.down_click img').css('top', - pxscrolled);
 
 if (pxscrolled > 428) {
 		$('nav').fadeIn();
@@ -14,6 +14,16 @@ if (pxscrolled > 428) {
 	else{
 		$('nav').fadeOut();
 	}
+
+$('.intro h2 img').load;{
+	alert($(this).width());
+}
+
+// var introimg = $
+// 	$(window).resize(function(){
+// 		$('.intro').css('height', + window)		
+// 	});
+
 
 });	
 

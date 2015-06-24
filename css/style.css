@@ -63,7 +63,8 @@ body{
 /* wrapper */
 main{
 	background:url("http://erickink.com/wp-content/uploads/2014/04/test_background1.jpg")no-repeat;
-	background-attachment: fixed; 
+	background-attachment: fixed;
+	background-size:2116px;
 }
 
 h1{
@@ -128,14 +129,14 @@ li a{
 }
 
 .intro {
-	height:473px;
+	height:734px;
 	overflow: auto;
 	width:50%;
 	margin:0 auto;
 }
 
 .intro img{
-	width: 50%;
+	width: 72%;
 	position: absolute;
 	left:0;
 	right:0;
