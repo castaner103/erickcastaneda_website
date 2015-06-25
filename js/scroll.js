@@ -22,18 +22,18 @@ if (pxscrolled > 428) {
 
 $(document).ready(function(){
 	
-	setTimeout(function() { 
-		var introheight = $('.intro h2 img').height();
-		console.log('initial load, intro height', introheight);
-		$('.intro').height(introheight);
-	}, 100);
+	// setTimeout(function() { 
+	// 	var introheight = $('.intro h2 img').height();
+	// 	console.log('initial load, intro height', introheight);
+	// 	$('.intro').height(introheight);
+	// }, 100);
 
 	// console.log(introheight);
-	$(window).resize(function(){
-				var introheight = $('.intro h2 img').height();
-			$('.intro').height(introheight);
+	// $(window).resize(function(){
+	// 			var introheight = $('.intro h2 img').height();
+	// 		$('.intro').height(introheight);
 
-	}).trigger('resize');
+	// }).trigger('resize');
 
 });
 
