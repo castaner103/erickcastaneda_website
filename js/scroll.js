@@ -14,19 +14,28 @@ if (pxscrolled > 428) {
 	else{
 		$('nav').fadeOut();
 	}
-
-$('.intro h2 img').load;{
-	alert($(this).width());
-}
-
-// var introimg = $
-// 	$(window).resize(function(){
-// 		$('.intro').css('height', + window)		
-// 	});
-
-
 });	
 
+		
+	
+
+
+$(document).ready(function(){
+	
+	setTimeout(function() { 
+		var introheight = $('.intro h2 img').height();
+		console.log('initial load, intro height', introheight);
+		$('.intro').height(introheight);
+	}, 100);
+
+	// console.log(introheight);
+	$(window).resize(function(){
+				var introheight = $('.intro h2 img').height();
+			$('.intro').height(introheight);
+
+	}).trigger('resize');
+
+});
 
 	// var pxscrolled = $(document).scrollTop();
 	// 	console.log(pxscrolled);

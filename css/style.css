@@ -129,7 +129,7 @@ li a{
 }
 
 .intro {
-	height:734px;
+	/*height:734px;*/
 	overflow: auto;
 	width:50%;
 	margin:0 auto;
