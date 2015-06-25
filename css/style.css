@@ -130,22 +130,13 @@ li a{
 
 .intro {
 	/*height:734px;*/
-	overflow: auto;
-	width:50%;
+	width: 72%;
 	margin:0 auto;
 }
 
 .intro img{
-	width: 72%;
-	position: absolute;
-	left:0;
-	right:0;
-	margin:0 auto;
-
-}
-
-.down_click{
-	margin:20px 0;
+	width: 100%;
+	position: relative;
 }
 
 /******* about me section ******/
